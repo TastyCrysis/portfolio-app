@@ -1,5 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import Html from "../public/pictures/html.png";
+import Css from "../public/pictures/css.png";
+import Javascript from "../public/pictures/javascript.png";
+import ReactImg from "../public/pictures/react.png";
+import Tailwind from "../public/pictures/tailwind.png";
+import Github from "../public/pictures/github.png";
+import NextJS from "../public/pictures/nextjs.png";
 
 function Skills() {
   return (
@@ -15,7 +22,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/html.png"
+                  src={Html}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -30,7 +37,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/css.png"
+                  src={Css}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -45,7 +52,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/javascript.png"
+                  src={Javascript}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -60,7 +67,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/react.png"
+                  src={ReactImg}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -75,7 +82,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/tailwind.png"
+                  src={Tailwind}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -90,7 +97,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/nextjs.png"
+                  src={NextJS}
                   width="64px"
                   height="64px"
                   alt="/"
@@ -105,7 +112,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/pictures/github.png"
+                  src={Github}
                   width="64px"
                   height="64px"
                   alt="/"
