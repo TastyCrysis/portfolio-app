@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import NavLogo from "../public/pictures/navLogo.png";
+import NavLogo from "../public/pictures/logo-phil.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,32 +16,21 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src={NavLogo}
-          alt="/"
-          width="95"
-          height="70"
-        />
+        <Image src={NavLogo} alt="/" width="185" height="70" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Home
-              </li>
+              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+            </Link>
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
-                About
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Skills
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                DEMO-Projects
+                Projects
               </li>
             </Link>
             <Link href="/">
@@ -57,7 +46,9 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+        }
       >
         <div
           className={
@@ -68,12 +59,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src={NavLogo}
-                width="90"
-                height="60"
-                alt="/"
-              />
+              <Image src={NavLogo} width="90" height="60" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
