@@ -9,6 +9,7 @@ import NavLogo from "../public/pictures/logo-phil.svg";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg] = useState("#ecf0f3");
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,6 +28,7 @@ const Navbar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
