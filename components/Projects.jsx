@@ -4,7 +4,7 @@ import philflixImg from "../public/pictures/Philflix.jpeg";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
@@ -12,24 +12,28 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
-            title="Philflix App"
+            title="Crypto App"
+            library="ReactJS"
             backgroundImg={philflixImg}
-            projectUrl="https://philflix.netlify.app/"
+            projectUrl="/crypto"
           />
           <ProjectItems
             title="Philflix App"
+            library="ReactJS"
             backgroundImg={philflixImg}
             projectUrl="/philflix"
           />
           <ProjectItems
-            title="Philflix App"
+            title="Galaxy Travel"
+            library="ReactJS"
             backgroundImg={philflixImg}
-            projectUrl="/philflix"
+            projectUrl="/galaxy"
           />
           <ProjectItems
-            title="Philflix App"
+            title="Weather App"
+            library="NextJS"
             backgroundImg={philflixImg}
-            projectUrl="/philflix"
+            projectUrl="/weather"
           />
         </div>
       </div>
