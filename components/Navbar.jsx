@@ -89,6 +89,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
+                  onClick={() => setNav(false)}
                   className="cursor-pointer"
                   src={NavLogo}
                   width="90"
