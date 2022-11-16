@@ -4,11 +4,11 @@ import React from "react";
 const privacy = () => {
   return (
     <div className="p-2 max-w-[800px] m-auto">
-      <Link href="/">
-        <p className="underline cursor-pointer text-center p-4 text-[#5651e5]">
-          Back
-        </p>
-      </Link>
+      <div className="text-center">
+        <Link href="javascript:history.go(-1)">
+          <p className="underline cursor-pointer text-[#5651e5]">Back</p>
+        </Link>
+      </div>
       <h1 className="py-2">Datenschutz&shy;erkl&auml;rung</h1>
       <h2 className="py-2">1. Datenschutz auf einen Blick</h2>
       <h3 className="py-2">Allgemeine Hinweise</h3>{" "}

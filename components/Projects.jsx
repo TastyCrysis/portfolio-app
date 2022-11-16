@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectItems from "./ProjectItems";
 import philflixImg from "../public/pictures/Philflix.jpeg";
+import comingsoonImg from "../public/pictures/comingsoon.jpg";
 
 const Projects = () => {
   return (
@@ -20,19 +21,19 @@ const Projects = () => {
           <ProjectItems
             title="Philflix App"
             library="ReactJS"
-            backgroundImg={philflixImg}
+            backgroundImg={comingsoonImg}
             projectUrl="/philflix"
           />
           <ProjectItems
             title="Galaxy Travel"
             library="ReactJS"
-            backgroundImg={philflixImg}
+            backgroundImg={comingsoonImg}
             projectUrl="/galaxy"
           />
           <ProjectItems
             title="Weather App"
             library="NextJS"
-            backgroundImg={philflixImg}
+            backgroundImg={comingsoonImg}
             projectUrl="/weather"
           />
         </div>

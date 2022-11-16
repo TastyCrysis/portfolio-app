@@ -26,9 +26,11 @@ const imprint = () => {
         Quelle: <a href="https://www.e-recht24.de">eRecht24</a>
       </p>
 
-      <Link href="/">
-        <p className="underline cursor-pointer text-[#5651e5]">Back</p>
-      </Link>
+      <div className="text-center">
+        <Link href="javascript:history.go(-1)">
+          <p className="underline cursor-pointer text-[#5651e5]">Back</p>
+        </Link>
+      </div>
     </div>
   );
 };

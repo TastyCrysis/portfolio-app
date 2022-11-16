@@ -35,7 +35,11 @@ const crypto = () => {
             parturient montes nascetur ridiculus mus mauris vitae ultricies leo
             integer malesuada nunc vel risus
           </p>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a
+            href="https://pcrypto.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white">
               Demo
             </button>
@@ -78,6 +82,24 @@ const crypto = () => {
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
+      </div>
+      <div className="max-w-[600px] m-auto shadow-xl shadow-gray-400 rounded-xl">
+        <div className="p-2 relative flex justify-between text-justify w-full text-[#5651e5]">
+          <Link href="/privacy">
+            <p className="underline cursor-pointer">Datenschutz</p>
+          </Link>
+          <Link href="/imprint">
+            <p className="underline cursor-pointer">Impressum</p>
+          </Link>
+          <div
+            className="underline cursor-pointer"
+            onClick={() => {
+              window.klaro.show(window.klaroConfig);
+            }}
+          >
+            <p>Cookie Konfiguration</p>
+          </div>
+        </div>
       </div>
     </div>
   );
