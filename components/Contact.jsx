@@ -15,9 +15,9 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="relative flex justify-between items-center max-w-[900px] w-full m-auto pb-4 rounded-xl px-24 mb-4">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div>
             <div className="lg:p-4 h-full">
               <div className="hover:scale-105 ease-in duration-300">
                 <Image className="rounded-xl" src={ContactImg} alt="/" />
@@ -32,7 +32,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with me</p>
-                <div className="flex items-center justify-between py-4">
+                <p className="pt-2 pb-4 underline">Tel.:+49 170 24 88 443</p>
+                <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
@@ -50,50 +51,22 @@ const Contact = () => {
             </div>
           </div>
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
-            <div className="p-4">
-              <form>
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Telefon</label>
-                    <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">email</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="email"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Betreff</label>
-                  <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                    type="text"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Nachricht</label>
-                  <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="10"
-                  ></textarea>
-                </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  Senden
-                </button>
-              </form>
+        </div>
+        <div className="items-center max-w-[800px] w-full m-auto shadow-xl shadow-gray-400 rounded-xl">
+          <div className="p-4 relative flex justify-between text-center w-full text-[#5651e5]">
+            <Link href="/privacy">
+              <p className="underline cursor-pointer">Datenschutz</p>
+            </Link>
+            <Link href="/imprint">
+              <p className="pl-16 underline cursor-pointer">Impressum</p>
+            </Link>
+            <div
+              className="underline cursor-pointer"
+              onClick={() => {
+                window.klaro.show(window.klaroConfig);
+              }}
+            >
+              <p>Cookie Konfiguration</p>
             </div>
           </div>
         </div>

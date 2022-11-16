@@ -36,14 +36,18 @@ const crypto = () => {
             integer malesuada nunc vel risus
           </p>
           <a href="/" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white">
+              Demo
+            </button>
           </a>
           <a
             href="https://github.com/TastyCrysis/crypto-project"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white">
+              Code
+            </button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
