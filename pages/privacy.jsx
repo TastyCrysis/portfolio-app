@@ -3,7 +3,7 @@ import React from "react";
 
 const privacy = () => {
   return (
-    <div className="px-20 py-4 mx-40">
+    <div className="p-2 max-w-[800px] m-auto">
       <Link href="/">
         <p className="underline cursor-pointer text-center p-4 text-[#5651e5]">
           Back

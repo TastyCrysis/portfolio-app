@@ -15,10 +15,10 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="relative flex justify-between items-center max-w-[900px] w-full m-auto pb-4 rounded-xl px-24 mb-4">
+        <div className="max-w-[800px] m-auto pb-4">
           {/* left */}
           <div>
-            <div className="lg:p-4 h-full">
+            <div className="lg:p-4 h-full items-center justify-between max-w-[660px] m-auto py-4">
               <div className="hover:scale-105 ease-in duration-300">
                 <Image className="rounded-xl" src={ContactImg} alt="/" />
               </div>
@@ -52,13 +52,13 @@ const Contact = () => {
           </div>
           {/* right */}
         </div>
-        <div className="items-center max-w-[800px] w-full m-auto shadow-xl shadow-gray-400 rounded-xl">
-          <div className="p-4 relative flex justify-between text-center w-full text-[#5651e5]">
+        <div className="max-w-[600px] m-auto shadow-xl shadow-gray-400 rounded-xl">
+          <div className="p-2 relative flex justify-between text-justify w-full text-[#5651e5]">
             <Link href="/privacy">
               <p className="underline cursor-pointer">Datenschutz</p>
             </Link>
             <Link href="/imprint">
-              <p className="pl-16 underline cursor-pointer">Impressum</p>
+              <p className="underline cursor-pointer">Impressum</p>
             </Link>
             <div
               className="underline cursor-pointer"
