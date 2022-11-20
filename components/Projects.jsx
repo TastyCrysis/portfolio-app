@@ -14,25 +14,25 @@ const Projects = () => {
         <h2 className="py-4">Was ich gemacht habe</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems
-            title="Crypto App"
+            title="Crypto App &#040;WIP&#041;"
             library="ReactJS"
             backgroundImg={cryptoImg}
             projectUrl="/crypto"
           />
           <ProjectItems
-            title="Philflix App"
+            title="Philflix App &#040;WIP&#041;"
             library="ReactJS"
             backgroundImg={comingsoonImg}
             projectUrl="/philflix"
           />
           <ProjectItems
-            title="Galaxy Travel"
+            title="Galaxy Travel &#040;WIP&#041;"
             library="ReactJS"
             backgroundImg={comingsoonImg}
             projectUrl="/galaxy"
           />
           <ProjectItems
-            title="Weather App"
+            title="Weather App &#040;WIP&#041;"
             library="NextJS"
             backgroundImg={comingsoonImg}
             projectUrl="/weather"

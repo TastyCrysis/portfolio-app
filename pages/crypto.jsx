@@ -17,7 +17,7 @@ const crypto = () => {
           alt="/"
         />
         <div className="absolute top-[55%] max-w-[1240px] w-full left-[55%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto-App</h2>
+          <h2 className="py-2">Crypto-App &#040;WIP&#041;</h2>
           <h3>ReactJS / Tailwind / Firebase</h3>
         </div>
       </div>
