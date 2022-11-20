@@ -11,29 +11,28 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Wer ich bin</h2>
           <p className="py-2 text-gray-600">
-            in nulla posuere sollicitudin aliquam ultrices
+            2021 hat mir mein jüngerer Bruder, selbst ein Senior Developer, die
+            Welt der Front-End Entwicklung gezeigt. Im vergangen Jahr habe ich
+            mir grundlegende Skills in der Web-Entwicklung angeeignet. Ich freue
+            mich sehr mein Können in realen Projekten unter Beweis zu stellen.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Porttitor lacus luctus accumsan tortor posuere ac. Praesent semper
-            feugiat nibh sed pulvinar. Quam pellentesque nec nam aliquam sem et
-            tortor consequat id. Auctor eu augue ut lectus arcu bibendum at.
-            Arcu risus quis varius quam quisque id diam vel.
+            Als Teil meines Lernprozesses, habe ich einige kleine Projekte
+            gestaltet, und dabei eine Vielzahl an Tools und Techniken genutzt.
+            Dadurch habe ich ein solides Wissen in JavaScript, React und Next JS
+            entwickelt, einige API's entdeckt und CSS dafür verflucht, dass es
+            nicht das tut was es soll.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Porttitor lacus luctus accumsan tortor posuere ac. Praesent semper
-            feugiat nibh sed pulvinar. Quam pellentesque nec nam aliquam sem et
-            tortor consequat id. Auctor eu augue ut lectus arcu bibendum at.
-            Arcu risus quis varius quam quisque id diam vel.
+            Ich bin motiviert mich noch tiefer in die Front-End und
+            Web-Entwicklung einzuarbeiten und möchte weiterhin mit dir als
+            Entwickler wachsen.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
+              Sieh dir hier meine aktuellen Projekte an.
             </p>
           </Link>
         </div>

@@ -12,9 +12,9 @@ const Contact = () => {
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Contact
+          Kontakt
         </p>
-        <h2 className="py-4">Get In Touch</h2>
+        <h2 className="py-4">Kontaktiere mich</h2>
         <div className="max-w-[800px] m-auto pb-4">
           {/* left */}
           <div>
@@ -24,7 +24,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Philipp Gampe</h2>
-                <p>Front-End Developer</p>
+                <p>Junior Front-End Web Developer</p>
                 <p className="py-4">
                   Ich stehe für Vollzeit-Jobs zur Verfügung. Kontaktier mich und
                   lass uns darüber reden.
@@ -34,18 +34,32 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect with me</p>
                 <p className="pt-2 pb-4 underline">Tel.:+49 170 24 88 443</p>
                 <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a
+                    href="https://www.linkedin.com/in/philipp-gampe-809a58228/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/TastyCrysis"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href="mailto:gampep@yahoo.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

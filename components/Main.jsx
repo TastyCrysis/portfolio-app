@@ -10,32 +10,42 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Phil</span>
+            Hi, Ich bin <span className="text-[#5651e5]">Phil</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-4 text-gray-700">Junior Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Porttitor lacus luctus accumsan tortor posuere ac. Praesent semper
-            feugiat nibh sed pulvinar. Quam pellentesque nec nam aliquam sem et
-            tortor consequat id. Auctor eu augue ut lectus arcu bibendum at.
-            Arcu risus quis varius quam quisque id diam vel.
+            Auf der Suche nach einem motivierten, kreativen und zuverlässigen
+            Entwickler? Dann bist du bei mir genau richtig!
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <Link href="/">
+            <a
+              href="https://www.linkedin.com/in/philipp-gampe-809a58228/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+            <a
+              href="https://github.com/TastyCrysis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+            <a href="mailto:gampep@yahoo.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
+            {/* <Link href="/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

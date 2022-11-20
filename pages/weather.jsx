@@ -1,19 +1,21 @@
 import Image from "next/image";
 import React from "react";
-import cryptoImg from "../public/pictures/Crypto.jpg";
+import philflixImg from "../public/pictures/Philflix.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import comingsoonImg from "../public/pictures/comingsoon.jpg";
 
 const crypto = () => {
   return (
     <div className="w-full">
-      <div className="w-screen h-[50vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/40 z-10" />
+      <Image src={comingsoonImg}></Image>
+      {/* <div className="w-screen h-[50vh] relative">
+        <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/60 z-10" />
         <Image
-          className="absolute z-1"
+          className="absolut z-1"
           layout="fill"
           objectFit="cover"
-          src={cryptoImg}
+          src={philflixImg}
           alt="/"
         />
         <div className="absolute top-[55%] max-w-[1240px] w-full left-[55%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -26,13 +28,14 @@ const crypto = () => {
           <p className="pb-3">Projekt</p>
           <h2>Übersicht</h2>
           <p className="py-4">
-            Diese App wurde mit React JS gebaut und wird auf Firebase gehosted.
-            Usern ist es möglich, mit ihrer Email-Adresse einen neuen Account zu
-            erstellen. Sie können sich dann einloggen und Coins auf einer User
-            spezifischen Liste speichern. Dies wird mit einer Firestore Cloud
-            Storage Database ermöglicht, die zum Zeitpunkt der Registrierung
-            erstellt wird. Ein weiteres Feature, ist dynamisches Routing mit dem
-            React Router DOM Package. Die App nutzt die Coin Gecko API.
+            facilisis magna etiam tempor orci eu lobortis elementum nibh tellus
+            molestie nunc non blandit massa enim nec dui nunc mattis enim ut
+            tellus elementum sagittis vitae et leo duis ut diam quam nulla
+            porttitor massa id neque aliquam vestibulum morbi blandit cursus
+            risus at ultrices mi tempus imperdiet nulla malesuada pellentesque
+            elit eget gravida cum sociis natoque penatibus et magnis dis
+            parturient montes nascetur ridiculus mus mauris vitae ultricies leo
+            integer malesuada nunc vel risus
           </p>
           <a
             href="https://pcrypto.netlify.app/"
@@ -99,7 +102,7 @@ const crypto = () => {
             <p>Cookie Konfiguration</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
